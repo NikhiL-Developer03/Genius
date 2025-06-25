@@ -1,14 +1,14 @@
-# MediLab Medical Website
+# Genius School Website
 
-A modern medical website built with Node.js, Express, and Handlebars templating engine.
+A modern educational institution website built with Node.js, Express, and Handlebars templating engine.
 
 ## Features
 
-- Responsive medical website design
+- Responsive school website design
 - Modern UI with gradient backgrounds
 - Express.js backend with routing
 - Handlebars templating
-- Professional medical theme
+- Professional educational theme
 
 ## Technologies Used
 
@@ -50,18 +50,18 @@ A modern medical website built with Node.js, Express, and Handlebars templating 
 genius/
 ├── controllers/          # Route controllers
 │   ├── front.js         # Frontend route handlers
-│   └── admin/           # Admin controllers
+│   └── admin/           # Admin controllers (for school administration)
 ├── routes/              # Express routes
 │   ├── index.js         # Main router
 │   ├── front.js         # Frontend routes
 │   └── admin/           # Admin routes
 ├── views/               # Handlebars templates
 │   ├── index.hbs        # Home page template
-│   ├── aboutPage.hbs    # About page template
-│   ├── partials/        # Reusable template parts
-│   └── public/          # Static assets
-│       └── assets/      # CSS, JS, Images
-├── models/              # Database models
+│   ├── aboutPage.hbs    # About school page template
+│   ├── partials/        # Reusable template components
+│   └── public/          # Static assets (CSS, JS, Images)
+│       └── assets/      # School assets and resources
+├── models/              # Database models (students, courses, etc.)
 ├── middlewares/         # Custom middleware
 ├── helpers/             # Helper functions
 ├── package.json         # Project dependencies
@@ -70,8 +70,8 @@ genius/
 
 ## Available Routes
 
-- `/` - Home page
-- Add more routes as you develop them
+- `/` - School home page
+- Add more routes as you develop them (courses, admissions, faculty, etc.)
 
 ## Contributing
 
@@ -88,4 +88,4 @@ This project is licensed under the MIT License.
 ## Contact
 
 Your Name - your.email@example.com
-Project Link: [https://github.com/yourusername/medilab-website](https://github.com/yourusername/medilab-website)
+Project Link: [https://github.com/yourusername/genius-school-website](https://github.com/yourusername/genius-school-website)
