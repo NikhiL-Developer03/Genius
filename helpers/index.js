@@ -3,6 +3,11 @@ const hbs = require("hbs")
 hbs.registerHelper("siteName", () => {
   return process.env.SITE_NAME
 })
+hbs.registerHelper("siteNameLogo", () => {
+  let name = ""
+  process.env.SITE_NAME.split(" ").forEach(x => name += x[0])
+  return name;
+})
 hbs.registerHelper("siteEmail", () => {
   return process.env.SITE_EMAIL
 })
@@ -28,7 +33,7 @@ hbs.registerHelper("siteYoutube", () => {
   return process.env.SITE_YOUTUBE
 })
 hbs.registerHelper("siteInstagram", () => {
-  return process.env.SITE_INSTAGRAM 
+  return process.env.SITE_INSTAGRAM
 })
 hbs.registerHelper("siteLinkedin", () => {
   return process.env.SITE_LINKEDIN
