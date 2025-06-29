@@ -1,5 +1,3 @@
-const { model } = require("mongoose")
-
 function homePage(req, res) {
   res.render("index", {
     title: "Home"
@@ -27,7 +25,7 @@ function teamPage(req, res) {
 }
 function testimonialPage(req, res) {
   res.render("testimonialPage", {
-    title: "Testimonail",
+    title: "Testimonial",
   })
 }
 function contactUsPage(req, res) {
