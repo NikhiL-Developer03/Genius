@@ -99,6 +99,21 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.breadcrum {
+  height: 80px;
+  /* background: linear-gradient(135deg, var(--accent-color), var(--heading-color)); */
+  /* background: linear-gradient(135deg, #2c4964, #1977cc, #f1f7fc); */
+  background: linear-gradient(135deg, #1977cc, #4a90e2, #e3f2fd);
+  /* border-top: 2px solid rgb(266,224,224);
+  border-bottom: 2px solid rgb(266,224,224); */
+
+  /* Add some styling for better appearance */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
 
 /* Pulsating Play Button
 ------------------------------*/
